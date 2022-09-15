@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    cout<<"Hello World";
     char x ='A'; // character we can store only one char in char type.
     char y[] ="Hello World" ;// in order to store the strings, we need to declare the array in char type
     // in order to store the string we use double quotes
