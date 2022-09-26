@@ -33,5 +33,22 @@ int main(){
     //     cout<<"Not Found!";
     // }
 
+    // string comparison 
+
+    // when the values are same then it will return 0
+    // char x1[] = "Abdullah";
+    // char x2[] = "Abdullah";
+    // cout<<strcmp(x1,x2);
+    
+    // when the upper value is greater than it will return -ve 
+    // char x1[] = "Abdullah";
+    // char x2[] = "abdullah";
+    // cout<<strcmp(x1,x2);
+
+
+    // when the lower value is greater than it will return +ve 
+    // char x1[] = "abdullah";
+    // char x2[] = "Abdullah";
+    // cout<<strcmp(x1,x2);
     return 0;
 }
