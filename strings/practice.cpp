@@ -14,18 +14,24 @@ int main(){
     // cout<<"The lenght of your string is "<<strlen(x);
 
     // // concatination
-    char x1[] = "Abdullah! ";
-    char x2[] = " I am a developer";
+    // char x1[] = "Abdullah! ";
+    // char x2[] = " I am a developer";
     // cout<< x1 + x2;
     // string concatinatino function to add the string to the other variable.
     // cout<<strcat(x2,x1)<<endl;
     // string according to the specific values 
     // strncat(destination, source, lenght )
-    strncat(x2, x1 , 5);
+    // strncat(x2, x1 , 5);
+    // cout<<x2;
 
-    cout<<x2;
-
-
+    // char x1[] = "Abdullah! ";
+    // char x2[] = "";
+    // if(strstr(x1,x2)!= NULL){
+    //     cout<<strstr(x1,x2);
+    // }
+    // else{
+    //     cout<<"Not Found!";
+    // }
 
     return 0;
 }
