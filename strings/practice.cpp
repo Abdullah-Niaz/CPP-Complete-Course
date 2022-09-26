@@ -50,5 +50,16 @@ int main(){
     // char x1[] = "abdullah";
     // char x2[] = "Abdullah";
     // cout<<strcmp(x1,x2);
+
+
+    // string conversions 
+    char s1[] = "34222";
+    char s2[] = "234.232";
+    
+    // conversion to integer 
+    long int x = strtol(s1,NULL,10);
+    // Conversion to float
+    float y    = strtof(s2,NULL);
+    cout<<x<<endl<<y<<endl;
     return 0;
 }
