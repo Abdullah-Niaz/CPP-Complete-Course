@@ -56,6 +56,7 @@ int main(){
     char s1[] = "34222";
     char s2[] = "234.232";
     
+    // we can also apply arithmetic operation on it
     // conversion to integer 
     long int x = strtol(s1,NULL,10);
     // Conversion to float
