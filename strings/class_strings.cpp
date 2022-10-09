@@ -22,10 +22,18 @@ int main(){
     //     cout<<"String is not empty and value is "<<str<<endl;
     // }
 
-    string str1 = "programming";
-    string str2 = " is most popular among every profession";
-    string str3;
-    str3 = str1 + str2;
-    cout<<str3;
+    // string str1 = "programming";
+    // string str2 = " is most popular among every profession";
+    // string str3;
+    // str3 = str1 + str2;
+    // cout<<str3;
+    string str = "hello";
+    accesing the string using the for loop
+    for(int i=0; str[i] != '\0';i++){
+        // cout<<str[i] ;
+        // Another way to acces it in uppar case 
+        str[i] = str[i] - 32;
+    }
+    cout<<str;
     return 0; 
 }
