@@ -38,8 +38,14 @@ int main(){
 
     // Another way of accesing is using the functions 
     // Acessing from the start
-    string::iterator it;
-    for(it= str.begin(); it != str.end();it++){
+    // string::iterator it;
+    // for(it= str.begin(); it != str.end();it++){
+    //     cout<<*it;
+        
+    // }
+    
+    string::reverse_iterator it;
+    for(it= str.rbegin(); it != str.rend();it++){
         cout<<*it;
         
     }
