@@ -1,28 +1,26 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int arr[5] = {3,4,5,6,9};
-    for (int i = 0; i < 5; i++)
-    {
-        cout<<arr[i]<<endl;
-    }
+    int arr[6] = {3,4,5,6,9,12};
     int key;
     cout<<"Enter the Key to find out "<<endl;
     cin>>key;
-    int l = 3 , h = 9,mid ;
+    int l = 0 , h = 5;
     while (l<=h)
     { 
-        mid = (l+h)/2;
-        if(arr[mid] == key ){
+        int mid = (l+h)/2;
+        if(key == arr[mid]){
             cout<<"key found at index "<<mid;
+            return 0;
         }
-        else if (arr[mid] < key )        
+        else if (key < arr[mid])        
         {
-            l = mid + 1 ;
+            h = mid - 1 ;
         }
         else{
-            h = mid - 1;
+            l = mid + 1;
         }
+    
 }
 
     
