@@ -44,13 +44,30 @@ int main(){
         
     // }
     
-    string::reverse_iterator it;
-    for(it= str.rbegin(); it != str.rend();it++){
-        cout<<*it;
-        
-    }
     
     // Accessing from reverse
 
+    // string::reverse_iterator it;
+    // for(it= str.rbegin(); it != str.rend();it++){
+    //     cout<<*it;
+        
+    // }
+
+    // Find the length of string 
+    string str1="Wellcome";
+    // Finding the length of string using the for loop 
+    int count=0;
+    // for (int i = 0; str[i] != '\0'; i++)        
+    // {
+    //     count++;
+    // }
+    // cout<<"the length of string is |  " << count;
+    
+    // Finding the length using the string iterator
+    string::iterator it;
+    for(it = str.begin(); it != str.end(); ++it ){
+        count++;
+    }
+    cout<<count;
     return 0; 
 }
