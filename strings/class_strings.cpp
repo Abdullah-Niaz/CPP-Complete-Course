@@ -65,9 +65,9 @@ int main(){
     
     // Finding the length using the string iterator
     string::iterator it;
-    for(it = str.begin(); it != str.end(); ++it ){
-        count++;
-    }
-    cout<<count;
+    // for(it = str.begin(); it != str.end(); ++it ){
+    //     count++;
+    // }
+    // cout<<count;
     return 0; 
 }
