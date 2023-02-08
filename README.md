@@ -4,8 +4,7 @@ This repository contains a complete course for learning C++ programming language
 # Course Outline
 The course is divided into several sections that cover the following topics:
 
-<ul> 
-    
+<ul>  
     <li> Introduction to C++ </li>
     <li> Variables and Data Types </li>
     <li>Control Structures (if-else, loops, etc.)</li>
@@ -16,7 +15,8 @@ The course is divided into several sections that cover the following topics:
     <li>File Input/Output</li>
     <li>Exception Handling</li>
     <li>Standard Template Library (STL) </li>
-    </ul> 
+    
+</ul> 
 
 Prerequisites
 Before starting the course, it is recommended that you have a basic understanding of computer programming concepts and familiarity with any programming language.
