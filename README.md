@@ -1,19 +1,23 @@
 # C++ Complete Course
 This repository contains a complete course for learning C++ programming language from zero to advance level. The course is designed for individuals who are new to programming or have limited experience in C++.
 
-Course Outline
+# Course Outline
 The course is divided into several sections that cover the following topics:
 
-Introduction to C++
-Variables and Data Types
-Control Structures (if-else, loops, etc.)
-Functions
-Arrays and Strings
-Pointers and References
-OOP Concepts (classes, objects, inheritance, polymorphism, etc.)
-File Input/Output
-Exception Handling
-Standard Template Library (STL)
+<ul> 
+    <li>
+    Introduction to C++
+    Variables and Data Types
+    Control Structures (if-else, loops, etc.)
+    Functions
+    Arrays and Strings
+    Pointers and References
+    OOP Concepts (classes, objects, inheritance, polymorphism, etc.)
+    File Input/Output
+    Exception Handling
+    Standard Template Library (STL)
+    </ul> 
+</li>
 Prerequisites
 Before starting the course, it is recommended that you have a basic understanding of computer programming concepts and familiarity with any programming language.
 
