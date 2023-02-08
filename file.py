@@ -1,2 +1,4 @@
-if 5 > 2:
-  print("Five is greater than two!")
+x = int(input("Enter the first number "))
+y = int(input("Enter the second number "))
+result = x + y
+print(result)
