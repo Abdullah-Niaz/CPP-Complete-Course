@@ -1,0 +1,8 @@
+* Repeating statements 
+* Itrating statements
+
+Types of Loops:
+    * For Loop
+    * For Each Loop
+    * While Loop
+    * Do while Loop
