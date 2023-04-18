@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 int main(){
-
-    int row,column;
-    cout<<"Enter the Row & Columns: ";
-    cin>>row>>column;
-    for (int i = 1; i <= row; i++)
-    {
-        for (int j = 1; j <= column; j++){
-            cout<<" * ";
+    int cols,rows;
+    cout<<"Enter the Cols "<<endl;
+    cin>>cols;
+    cout<<"Enter the Rows "<<endl;
+    cin>>rows;
+    for(int i=1 ; i<=cols ; ++i){
+        for(int j=1 ; j<=rows ;++j){
+            cout<<"*";
         }
         cout<<endl;
     }
-    
+
 }
