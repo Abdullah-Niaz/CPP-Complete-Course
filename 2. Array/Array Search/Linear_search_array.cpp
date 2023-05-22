@@ -1,23 +1,4 @@
-
-                    // Just linear Search
-
-
-// #include <iostream>
-// using namespace std;
-// int main(){
-//     int key;
-//     int A[] = {12,4,5,6,66,77,88,983,374,433},n=10;
-//     cout<<"Enter the Key to Find ";
-//     cin>>key;
-//     for(int i=0; i<key;++i){
-//         if(key==A[i]){
-//             cout<<"Key Found at "<<i<<endl;
-//         }
-//     }
-//     return 0;
-// }
-
-                        // Taking data from user and store it into the array
+                       // Taking data from user and store it into the array
 
 #include <iostream>
 using namespace std;
