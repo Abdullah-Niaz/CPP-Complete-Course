@@ -10,10 +10,10 @@ int main(){
     }
     else if (b > c)
     {
-        cout<<"B is greater: "<<b<<endl;
+    cout<<"B is greater: "<<b;
     }
     else{
-        cout<<"C is greater: "<<c<<endl;
+        cout<<"C is greater: "<<c;
     }
     
     return 0;
