@@ -10,14 +10,19 @@ int main(){
     int a,sum=0,re;
     cout<<"Enter the Number to Check: ";
     cin>>a;
-
+    int n = a;
     while (a > 0)
     {
         re = a % 10;
         a =  a / 10;
         sum  = sum + (re * re * re);
     }
-    cout<<sum;
     
+    if (n == sum ){
+        cout<<"Number is Amstrong";
+    }
+    else{
+        cout<<"Number is not Armstrong";
+    }
     return 0;
 }
