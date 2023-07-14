@@ -12,10 +12,14 @@ int main(){
     cout<<"Starting Pointer from here: "<<p<<endl;
     for (int i = 0; i < 5; i++)
     {
-        cout<<"Value at address "<<p + 1<<" is: "<<*(p++)<<endl;
+        cout<<"Value at address "<<p + i<<" is: "<<*(p++)<<endl;
 
     }
     cout<<"Ending pointer here: "<<p<<endl;
     
+    
+    
+    delete []p;
+    p = nullptr;
     return 0;
 }
