@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int add(int a = 0 , int b = 0 ,int c =0){
+// Position Arguments should be before the Default arguments
+int add(int a , int b = 0 ,int c =0){
     return a + b + c;
 }
 
