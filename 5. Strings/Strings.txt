@@ -1,0 +1,8 @@
+Strings
+	A string is a data type used in programming, that is used to represent text rather than numbers.
+	A string is a sequence of characters and can contain letters, numbers, symbols and even spaces. 
+	It must be enclosed in quotation marks for it to be recognized as a string.
+
+Types:
+	* Using Array
+	* Using String Class
