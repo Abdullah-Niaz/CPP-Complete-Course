@@ -23,7 +23,7 @@ int main(){
     cout<<"Area is: "<<r.area()<<endl;
     cout<<"Parameter is: "<<r.Perameter();
 
-    cout<<endl;
+    cout<<"\nRuntime Change of Values Using Pointers\n";
 
     p->length  = 20;
     p->breath = 30;
