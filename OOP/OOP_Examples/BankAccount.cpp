@@ -45,8 +45,8 @@ int main()
     cout<<"\n\n==============\n\n";
     BankAccount hamza;
     hamza.intial_Balance(5500);
-    hamza.deposit(500);
-    hamza.withdraw(200);
+    hamza.deposit(300);
+    hamza.withdraw(2200);
 
     cout << "Current balance: " << hamza.get_balance() << endl;
     return 0;
