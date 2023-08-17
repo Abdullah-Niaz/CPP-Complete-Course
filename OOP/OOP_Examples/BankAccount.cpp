@@ -42,6 +42,12 @@ int main()
     ali.withdraw(200);
 
     cout << "Current balance: " << ali.get_balance() << endl;
+    cout<<"\n\n==============\n\n";
+    BankAccount hamza;
+    hamza.intial_Balance(5500);
+    hamza.deposit(500);
+    hamza.withdraw(200);
 
+    cout << "Current balance: " << hamza.get_balance() << endl;
     return 0;
 }

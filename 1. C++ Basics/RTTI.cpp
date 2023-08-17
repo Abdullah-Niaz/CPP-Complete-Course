@@ -5,7 +5,7 @@
     //Todo dynamic_cast operator
 
 //? typeid operator
-// typeid is an operator that returns a reference to an object of type std::type_info, which contains information about the type of the object. The header file <typeinfo> should be included to use typeid.
+// typeid is an operator that returns a reference to an object of type type_info, which contains information about the type of the object. The header file <typeinfo> should be included to use typeid.
 
 #include <iostream>
 #include <typeinfo>

@@ -10,10 +10,10 @@ int main()
     string::iterator it;
     for (it = s.begin(); it != s.end(); ++it)
     {
-        std::cout << *it;
+        cout << *it;
     }
     cout<<s.find(".");
-    std::cout << '\n';
+    cout << '\n';
 
     return 0;
 }
