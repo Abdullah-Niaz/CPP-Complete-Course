@@ -3,20 +3,20 @@
 using namespace std;
 class Student {
 private:
-     string name;
-    int age;
+    string _name;
+    int _age;
 
 public:
     void student(string a_name , int a_age){
-        name = a_name;
-        age  = a_age;
+        _name = a_name;
+        _age  = a_age;
     }
      string get_name() {
-        return name;
+        return _name;
     }
 
     int get_age() {
-        return age;
+        return _age;
     }
 };
 
