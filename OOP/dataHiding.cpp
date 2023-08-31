@@ -20,6 +20,7 @@ public:
     double deposit(double amount) {
         if (amount > 0) {
             balance += amount;
+            cout<<"Amount you Desposited is: "<<amount;
         }
         else{
             cout<<"Must Be Greater then 0";
@@ -36,9 +37,9 @@ int main() {
 
     BankAccount Ali;
     double ibal = Ali.Initial(2200);
-    double d =  Ali.deposit(2000);
     double b = Ali.getBalance();
-    cout<<"Your Inital Balance was: "<<ibal<<"\nYou Deposited: "<<d<<
-    "\n& Current Balance is: "<<b;
+    double d =  Ali.deposit(2000);
+    cout<<"\n Your Inital Balance was: "<<ibal<<
+    "\n& Current Balance is: "<<d;
     return 0;
 }
