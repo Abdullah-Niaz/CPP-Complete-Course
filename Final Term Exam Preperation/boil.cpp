@@ -10,6 +10,9 @@ struct students
                     {989, 947, 977 , 923, 917},
                     {989, 947, 977 , 923, 917},
                     {989, 947, 977 , 923, 917}};
+    string sub[1][5] = {
+        {"Physic","Math","Chemistry","Statistics","CN"},
+    };
 
 };
 
@@ -39,14 +42,26 @@ int main(){
             cout<<"Marks: ";
             for (int j = 0; j <= 4; j++)
             {
+            cout<<st.marks[i][j]<<" : ";
+            }  
 
-                cout<<st.marks[i][j]<<" ";
+            cout<<"\nSubjects: ";
+            for (int j = 0; j <= 4; j++)
+            {
+                for (int k = 0; k <=4; k++)
+                {
+                    /* code */
+                    cout<<st.sub[j][k]<<" : ";
+                }
             }
             cout<<"\n\n==================\n\n";
         }
         
         
     }
+
+    
+
     
     return 0;
 }

@@ -6,7 +6,7 @@ class BankAccount {
 private:
     double balance;
 
-public:
+ public:
     void showMenu(){
         cout<<"1.Initial Balance Setup: "<<endl;
         cout<<"2.Deposit: "<<endl;
@@ -35,7 +35,7 @@ public:
 int main() {
 
 
-    BankAccount Ali;
+    BankAccount Ali = BankAccount();
     double ibal = Ali.Initial(2200);
     double b = Ali.getBalance();
     double d =  Ali.deposit(2000);
