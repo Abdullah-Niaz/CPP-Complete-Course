@@ -9,10 +9,16 @@ class default_Constructor{
 };
 
 int main(){
-    default_Constructor def;
-    int r = def.r;
-    int val = def.value;
+    default_Constructor def; // object
+
+    def.r = 30;
+
+    int r = def.r; // Stored niside the variable
+    int val = def.value; // Same here as above 
+
+
     cout<<"Value of R is: "<<r<<endl;
     cout<<"Value of value is: "<<val<<endl;
     return 0;
+
 };

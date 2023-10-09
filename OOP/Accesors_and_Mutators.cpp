@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// Accessors: Are to Set the values of instance/data variables 
+// Getters: Are to get the value of instance/data variable 
 class Rectangle{
     private:
     int width;
