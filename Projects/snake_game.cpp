@@ -1,7 +1,8 @@
 #include <iostream>
 #include <conio.h>
 #include <windows.h>
-#include <dos.h>
+// #include <dos.h>
+#include <direct.h>
 #include <time.h>
 
 #define MAXSNAKESIZE 100

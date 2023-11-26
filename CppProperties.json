@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "name": "Mingw64",
+      "includePath": [
+        "D:/PS/CPP/**"
+      ],
+      "defines": [],
+      "compilerPath": "C:/MinGW/bin/g++.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+    }
+  ],
+  "version": 4
+}
