@@ -12,6 +12,6 @@ int main()
         rev[i] = s[j];
     }
     rev[len] = '\0';
-    cout << "Palindrome: "<<rev;
+    cout << "Palindrome: " << rev;
     return 0;
 };
