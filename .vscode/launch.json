@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/PS/CPP/LeetCodeProblems",
-      "program": "d:/PS/CPP/LeetCodeProblems/build/Debug/outDebug",
+      "cwd": "d:/Open Source/CPP/Object Oriented Programming/Constructor",
+      "program": "d:/Open Source/CPP/Object Oriented Programming/Constructor/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
