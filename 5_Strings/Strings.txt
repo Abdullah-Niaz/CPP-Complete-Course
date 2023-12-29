@@ -1,0 +1,26 @@
+Strings
+	A string is a data type used in programming, that is used to represent text rather than numbers.
+	A string is a sequence of characters and can contain letters, numbers, symbols and even spaces. 
+	It must be enclosed in quotation marks for it to be recognized as a string.
+
+Types:
+	* Using Char Array
+	* Using String Class
+
+
+* Reading and Writing Strings
+* String Functions - Length, Concatenate and Copy
+* String Function - Substring and Compare
+* String Functions - Tokeniser and to integer
+* Class String
+* Basic Functions of class strings
+* Class String - Append and insert Functions
+* Class String - Replace and SWap
+* Class String - copy and Find Functions
+* Class String - Substring, compare and operations
+* Class String - iterator
+* Practice Problem: Find Length of a string
+* Practice Problem: Change Cases of Letters 
+* Practice Problem: Count Vowels and Words in a string
+* Practice Problem: Checking Palindrome
+* Practice Problem: Find User_Name from the E-mail address
